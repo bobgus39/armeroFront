@@ -4,11 +4,8 @@
     <meta charset="utf-8" />
     <title>Fisioterapia Armero</title>
     <script>
-      // Redirige rutas desconocidas de vuelta al index en GitHub Pages
-      var path = window.location.pathname;
-      var base = '/';
-      sessionStorage.setItem('redirect', path);
-      window.location.replace(base);
+      sessionStorage.setItem('redirect', window.location.pathname);
+      window.location.replace('/armeroFront/');
     </script>
   </head>
   <body></body>
